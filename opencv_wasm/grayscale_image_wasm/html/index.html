@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Wasm Example</title>
+  </head>
+  <body>
+    <input type="file" name="myFile" onchange="loadFile(event)"> </input>
+      <br> </br>
+      <div>
+        <img id="output" width="500" />
+        <button id="convertButton" onclick="rotateFile(event)"> Convert </button>
+      </div>
+      <div>
+        <img id="cvOutput" width="500" />
+      </div>
+      <script src="javascripts/test.js"> </script>
+      <script src="javascripts/rotate.js"> </script>
+  </body>
+</html>
